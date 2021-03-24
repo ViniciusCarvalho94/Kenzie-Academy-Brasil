@@ -5,166 +5,183 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Portfólio</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- CABEÇALHO -->
   <header>
-    <!-- CAIXA FOTO DE PERFIL -->
-    <div>
-      <figure>
-        <img src="/assests/vinicius.jpg" alt="Vinicius Albuquerque de Carvalho" />
-        <figcaption>Vinicius Albuquerque de Carvalho</figcaption>
-      </figure>
-    </div>
 
-    <!-- INFORMAÇÕES PESSOAIS -->
-    <div>
-      <h1>Vinicius Albuquerque de Carvalho</h1>
-      <p>Programador</p>
+    <div class="container">
+      <div class="linha">
+        <!-- CAIXA FOTO DE PERFIL -->
+        <div class="coluna coluna-esquerda">
+          <figure>
+            <img src="./assests/hudson.png" alt="Hudson Carolino" />
+            <figcaption class="hidden">Hudson Carolino</figcaption>
+          </figure>
+        </div>
 
-      <ul>
-        <li>
-          <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
-        </li>
-        <li>
-          <a href="tel:5511999999999">(11) 9 9999-9999</a>
-        </li>
-        <li>
-          <a href="#">Av 7 de Setembro, 34, Centro - São Paulo-SP</a>R
-          </a>
-        </li>
-      </ul>
+        <!-- INFORMAÇÕES PESSOAIS -->
+        <div class="coluna coluna-direita">
+          <h1>Hudson Carolino</h1>
+          <p>Facilitador Kazie Academy</p>
+
+          <ul>
+            <li>
+              <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+            </li>
+            <li>
+              <a href="tel:5511999999999">(11) 9 9999-9999</a>
+            </li>
+            <li>
+              <a href="#">Av 7 de Setembro, 34, Centro - Curitiba-PR</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
 
   <main>
-    <!-- CONTEUDO LADO ESQUERDO -->
-    <div>
-      <section>
-        <h2>Perfil Profissional</h2>
-        <p>Um programador iniciante que está procurando seu primeiro emprego de programador.</p>
-      </section>
 
-      <section>
-        <h2>Especialidade</h2>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript</li>
-          <li>Node.Js</li>
-        </ul>
-      </section>
+    <div class="container">
+      <div class="linha">
+        <!-- CONTEUDO LADO ESQUERDO -->
+        <div class="coluna coluna-esquerda">
+          <section>
+            <h2>Perfil Profissional</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste, neque ea sunt id eius modi quasi amet, laborum nemo velit quo quos incidunt tempora similique doloremque qui voluptate eveniet.</p>
+          </section>
 
-      <section>
-        <h2>Cursos</h2>
-        <ul>
-          <li>Lógica de programação em JAVA - Udemy</li>
-          <li>HTML5 - Rocket Seat</li>
-          <li>CSS3 - Rocket Seat</li>
-          <li>Javascript - Trybe</li>
-        </ul>
-      </section>
-    </div>
+          <section>
+            <h2>Especialidade</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Javascript</li>
+              <li>Node.Js</li>
+            </ul>
+          </section>
 
-    <!-- CONTEUDO LADO DIREITO -->
-    <div>
-      <section>
-        <h2>Experiências</h2>
-        <ul>
-          <li>
-            <h3>Facilitador de treinamento</h3>
-            <strong>
-              Nome da empresa Kenzie Academy Brasil - Tempo Integral
-            </strong>
-            <p>
-              Período do empregador. de 2020 - o momento Localidade São Paulo-SP
-            </p>
-          </li>
-          <li>
-            <h3>Facilitador de treinamento</h3>
-            <strong>
-              Nome da empresa Kenzie Academy Brasil - Tempo Integral
-            </strong>
-            <p>
-              Período do empregador. de 2020 - o momento Localidade São Paulo-SP
-            </p>
-          </li>
-          <li>
-            <h3>Facilitador de treinamento</h3>
-            <strong>
-              Nome da empresa Kenzie Academy Brasil - Tempo Integral
-            </strong>
-            <p>
-              Período do empregador. de 2020 - o momento Localidade São Paulo-SP
-            </p>
-          </li>
-        </ul>
-      </section>
+          <section>
+            <h2>Cursos</h2>
+            <ul>
+              <li>Lógica de programação em JAVA - Udemy</li>
+              <li>HTML5 - Rocket Seat</li>
+              <li>CSS3 - Rocket Seat</li>
+              <li>Javascript - Trybe</li>
+            </ul>
+          </section>
+        </div>
 
-      <section>
+        <!-- CONTEUDO LADO DIREITO -->
+        <div class="coluna coluna-direita">
+          <section>
+            <h2>Experiências</h2>
+            <ul>
+              <li>
+                <h3>Facilitador de treinamento</h3>
+                <strong>
+                  Nome da empresa Kenzie Academy Brasil - Tempo Integral
+                </strong>
+                <p>
+                  Período do empregador. de 2020 - o momento Localidade São Paulo-SP
+                </p>
+              </li>
+              <li>
+                <h3>Facilitador de treinamento</h3>
+                <strong>
+                  Nome da empresa Kenzie Academy Brasil - Tempo Integral
+                </strong>
+                <p>
+                  Período do empregador. de 2020 - o momento Localidade São Paulo-SP
+                </p>
+              </li>
+              <li>
+                <h3>Facilitador de treinamento</h3>
+                <strong>
+                  Nome da empresa Kenzie Academy Brasil - Tempo Integral
+                </strong>
+                <p>
+                  Período do empregador. de 2020 - o momento Localidade São Paulo-SP
+                </p>
+              </li>
+            </ul>
+          </section>
 
-        <h2>Formação</h2>
-        <ul>
-          <li>
-            <h3>Facilitador de treinamento</h3><strong>01/01/2018 - 01/01/2020</strong>
-            <p>Kenzie Academy Brasil</p>
-          </li>
-          <li>
-            <h3>Facilitador de treinamento</h3><strong>01/01/2018 - 01/01/2020</strong>
-            <p>Kenzie Academy Brasil</p>
-          </li>
-        </ul>
+          <section>
 
-      </section>
+            <h2>Formação</h2>
+            <ul>
+              <li>
+                <h3>Facilitador de treinamento</h3><strong>01/01/2018 - 01/01/2020</strong>
+                <p>Kenzie Academy Brasil</p>
+              </li>
+              <li>
+                <h3>Facilitador de treinamento</h3><strong>01/01/2018 - 01/01/2020</strong>
+                <p>Kenzie Academy Brasil</p>
+              </li>
+            </ul>
+
+          </section>
+        </div>
+      </div>
     </div>
   </main>
 
   <!-- RODAPÉ -->
   <footer>
-    <div>
-      <nav>        
-        <li>
-          <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
-        </li>
-        <li>
-          <a href="tel:5511999999999">(11) 9 9999-9999</a>
-        </li>
-        <li>
-          <a href="#">Av 7 de Setembro, 34, Centro - São Paulo-SP</a>
-        </li>
+    <div class="container">
+      <nav>
+        <ul class="info-contato">
+          <li>
+            <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+          </li>
+          <li>
+            <a href="tel:5511999999999">(11) 9 9999-9999</a>
+          </li>
+          <li>
+            <a href="#">Av 7 de Setembro, 34, Centro - Curitiba-PR</a>
+          </li>
+        </ul>
       </nav>
 
       <nav>
-        <ul>
+        <ul class="redes-sociais">
           <li>
             <a href="#">
-              <img src="/assests/linkedin.svg" alt="Linkedin">
+              <img src="./assests/linkedin.svg" alt="Linkedin">
               <p>Linkedin</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assests/github.svg" alt="Github">
+              <img src="./assests/github.svg" alt="Github">
               <p>Github</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assests/instagram.svg" alt="Instagram">
+              <img src="./assests/instagram.svg" alt="Instagram">
               <p>Instagram</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assests/youtube.svg" alt="Youtube">
+              <img src="./assests/youtube.svg" alt="Youtube">
               <p>Youtube</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/assests/facebook.svg" alt="Facebook">
+              <img src="./assests/facebook.svg" alt="Facebook">
               <p>Facebook</p>
             </a>
           </li>
